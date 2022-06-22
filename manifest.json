@@ -15,38 +15,6 @@
         "sourceUrl": "https://github.com/javtube/jellyfin-plugin-javtube/releases/download/v2022.622.1459.0/Jellyfin.JavTube@v2022.622.1459.0.zip",
         "timestamp": "2022-06-22T14:59:43Z",
         "version": "2022.622.1459.0"
-      },
-      {
-        "checksum": "776c20eebd2ee9a02956ab9fb19d3522",
-        "changelog": "Auto Released by Actions",
-        "targetAbi": "10.8.0.0",
-        "sourceUrl": "https://github.com/javtube/jellyfin-plugin-javtube/releases/download/v2022.618.1647.0/Jellyfin.JavTube@v2022.618.1647.0.zip",
-        "timestamp": "2022-06-18T16:47:57Z",
-        "version": "2022.618.1647.0"
-      },
-      {
-        "checksum": "d6a1b6ad303b1de089e2050a020a4c47",
-        "changelog": "Auto Released by Actions",
-        "targetAbi": "10.8.0.0",
-        "sourceUrl": "https://github.com/javtube/jellyfin-plugin-javtube/releases/download/v2022.618.858.0/Jellyfin.JavTube@v2022.618.858.0.zip",
-        "timestamp": "2022-06-18T08:59:07Z",
-        "version": "2022.618.858.0"
-      },
-      {
-        "checksum": "26ee2159dcb4d704c0b83f82b392aaf0",
-        "changelog": "Auto Released by Actions",
-        "targetAbi": "10.8.0.0",
-        "sourceUrl": "https://github.com/javtube/jellyfin-plugin-javtube/releases/download/v2022.613.1530.0/Jellyfin.JavTube@v2022.613.1530.0.zip",
-        "timestamp": "2022-06-13T15:30:17Z",
-        "version": "2022.613.1530.0"
-      },
-      {
-        "checksum": "2fbf5e485f7f644c66ffefaed7e1a317",
-        "changelog": "Auto Released by Actions",
-        "targetAbi": "10.8.0.0",
-        "sourceUrl": "https://github.com/javtube/jellyfin-plugin-javtube/releases/download/v2022.609.1543.0/Jellyfin.JavTube@v2022.609.1543.0.zip",
-        "timestamp": "2022-06-09T15:43:09Z",
-        "version": "2022.609.1543.0"
       }
     ]
   }
