@@ -42,7 +42,7 @@ public class MovieImageProvider : BaseProvider, IRemoteImageProvider, IHasOrder
             {
                 ProviderName = Name,
                 Type = ImageType.Primary,
-                Url = ApiClient.GetPrimaryImageApiUrl(m.Provider, m.Id, pid.Position ?? -1)
+                Url = ApiClient.GetPrimaryImageApiUrl(m.Provider, m.Id, position: pid.Position ?? -1)
             },
             new()
             {

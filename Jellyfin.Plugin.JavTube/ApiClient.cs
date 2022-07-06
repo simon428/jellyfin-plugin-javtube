@@ -35,11 +35,12 @@ public static class ApiClient
     }
 
     private static string ComposeImageApiUrl(string path, string provider, string id, string url = default,
-        double position = -1, bool auto = false)
+        double ratio = -1, double position = -1, bool auto = false)
     {
         return ComposeUrl(Path.Combine(path, provider, id), new NameValueCollection
         {
             { "url", url },
+            { "ratio", ratio.ToString("R") },
             { "pos", position.ToString("R") },
             { "auto", auto.ToString() }
         });
@@ -76,9 +77,9 @@ public static class ApiClient
         });
     }
 
-    public static string GetPrimaryImageApiUrl(string provider, string id, double position = -1)
+    public static string GetPrimaryImageApiUrl(string provider, string id, double ratio = -1, double position = -1)
     {
-        return ComposeImageApiUrl(PrimaryImageApi, provider, id, position: position);
+        return ComposeImageApiUrl(PrimaryImageApi, provider, id, ratio: ratio, position: position);
     }
 
     public static string GetPrimaryImageApiUrl(string provider, string id, string url, double position = -1,
