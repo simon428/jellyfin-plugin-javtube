@@ -7,24 +7,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Setup .NET Core
-        uses: actions/setup-dotnet@v1
+        uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: 6.0.x
+          dotnet-version: '8.x'
 
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.9'
 
       - name: Generate Version
         id: shell
         run: |
-          echo ::set-output name=version::$(date -u '+%Y.%-m%d.%-H%M.0')
+          echo "version=$(date -u '+%Y.%-m%d.%-H%M.0')" >> $GITHUB_OUTPUT
 
       - name: Build Plugins
         run: |
@@ -33,12 +33,12 @@ jobs:
 
       - name: Generate Manifest
         run: |
-          python3 scripts/manifest.py Jellyfin.Plugin.JavTube/bin/Jellyfin.JavTube@v${{ steps.shell.outputs.version }}.zip
+          python3 scripts/manifest.py Jellyfin.Plugin.MetaTube/bin/Jellyfin.MetaTube@v${{ steps.shell.outputs.version }}.zip
 
       - name: Publish Manifest
         run: |
-          git config --global user.name  'javtube-bot'
-          git config --global user.email 'javtube-bot@users.noreply.github.com'
+          git config --global user.name  'metatube-bot'
+          git config --global user.email 'metatube-bot@users.noreply.github.com'
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}
 
           git checkout --orphan dist
@@ -48,7 +48,7 @@ jobs:
           git push -f -u origin dist
 
       - name: Upload Plugins
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -56,5 +56,5 @@ jobs:
           draft: false
           tag_name: v${{ steps.shell.outputs.version }}
           files: |
-            Jellyfin.Plugin.JavTube/bin/Jellyfin.JavTube@v${{ steps.shell.outputs.version }}.zip
-            Jellyfin.Plugin.JavTube/bin/Emby.JavTube@v${{ steps.shell.outputs.version }}.zip
+            Jellyfin.Plugin.MetaTube/bin/Jellyfin.MetaTube@v${{ steps.shell.outputs.version }}.zip
+            Jellyfin.Plugin.MetaTube/bin/Emby.MetaTube@v${{ steps.shell.outputs.version }}.zip
