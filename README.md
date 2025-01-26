@@ -1,36 +1,37 @@
-<h1 align="center">Jellyfin Plugin JavTube</h1>
+<h1 align="center">Jellyfin Plugin MetaTube</h1>
 <p align="center"><b>English | <a href="README_ZH.md">简体中文</a></b></p>
 
 <p align="center">
-<img alt="Plugin Banner" src="https://javtube.github.io/logos/banner.png"/>
+<img alt="Plugin Banner" src="https://metatube-community.github.io/images/banner-dark.png"/>
 <br/>
 <br/>
 
-<a href="https://github.com/javtube/jellyfin-plugin-javtube/actions">
-<img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/javtube/jellyfin-plugin-javtube/.NET?logo=github">
+<a href="https://github.com/metatube-community/jellyfin-plugin-metatube/actions">
+<img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/metatube-community/jellyfin-plugin-metatube/dotnetcore.yml?branch=main&logo=github">
 </a>
-<a href="https://github.com/javtube/jellyfin-plugin-javtube/search?l=c%23">
-<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/javtube/jellyfin-plugin-javtube?color=%23239120&label=.NET&logo=csharp">
+<a href="https://github.com/metatube-community/jellyfin-plugin-metatube/search?l=c%23">
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/metatube-community/jellyfin-plugin-metatube?color=%23239120&label=.NET&logo=csharp">
 </a>
-<a href="https://github.com/javtube/jellyfin-plugin-javtube/blob/main/LICENSE">
-<img alt="License" src="https://img.shields.io/github/license/javtube/jellyfin-plugin-javtube">
+<a href="https://github.com/metatube-community/jellyfin-plugin-metatube/blob/main/LICENSE">
+<img alt="License" src="https://img.shields.io/github/license/metatube-community/jellyfin-plugin-metatube">
 </a>
-<a href="https://t.me/JavTubePlugin">
-<img alt="Telegram Group" src="https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white">
+<a href="https://github.com/metatube-community/jellyfin-plugin-metatube">
+<img alt="gitHub Stars" src="https://img.shields.io/github/stars/metatube-community/jellyfin-plugin-metatube?style=flat">
 </a>
-<a href="https://github.com/javtube/jellyfin-plugin-javtube">
-<img alt="Downloads" src="https://img.shields.io/github/downloads/javtube/jellyfin-plugin-javtube/total">
+<a href="https://github.com/metatube-community/jellyfin-plugin-metatube">
+<img alt="Downloads" src="https://img.shields.io/github/downloads/metatube-community/jellyfin-plugin-metatube/total">
 </a>
-<a href="https://hub.docker.com/r/javtube/javtube-server">
-<img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/javtube/javtube-server?logo=docker">
+<a href="https://hub.docker.com/r/metatube/metatube-server">
+<img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/metatube/metatube-server?logo=docker">
 </a>
-<a href="https://github.com/javtube/jellyfin-plugin-javtube/releases">
-<img alt="Releases" src="https://img.shields.io/github/v/release/javtube/jellyfin-plugin-javtube?include_prereleases&logo=smartthings">
+<a href="https://github.com/metatube-community/jellyfin-plugin-metatube/releases">
+<img alt="Releases" src="https://img.shields.io/github/v/release/metatube-community/jellyfin-plugin-metatube?include_prereleases&logo=smartthings">
 </a>
+</p>
 
 ## About
 
-Just Another Video Tube Plugin for Jellyfin/Emby.
+MetaTube Plugin for Jellyfin/Emby.
 
 ## Features
 
@@ -43,30 +44,30 @@ Just Another Video Tube Plugin for Jellyfin/Emby.
 
 ## Platforms
 
-[![Jellyfin](https://img.shields.io/static/v1?color=%2300A4DC&style=for-the-badge&label=Jellyfin&logo=jellyfin&message=10.8.x)](https://jellyfin.org/)
-[![Emby](https://img.shields.io/static/v1?color=%2352B54B&style=for-the-badge&label=Emby&logo=emby&message=4.7.x)](https://emby.media/)
+[![Jellyfin](https://img.shields.io/static/v1?color=%2300A4DC&style=for-the-badge&label=Jellyfin&logo=jellyfin&message=10.9.x)](https://jellyfin.org/)
+[![Emby](https://img.shields.io/static/v1?color=%2352B54B&style=for-the-badge&label=Emby&logo=emby&message=4.8.x)](https://emby.media/)
 
 _NOTE: This project will only support stable versions._
 
 ## Documentation
 
-- [Plugin installation](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85)
-- [Server deployment](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E5%90%8E%E7%AB%AF%E9%83%A8%E7%BD%B2)
-- [File naming rules](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83)
-- [Auto translation](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E8%87%AA%E5%8A%A8%E7%BF%BB%E8%AF%91)
-- [Build from source](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E8%87%AA%E8%A1%8C%E7%BC%96%E8%AF%91)
-- [Metadata providers](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90)
+- [Plugin installation](https://metatube-community.github.io/wiki/plugin-installation/)
+- [Server deployment](https://metatube-community.github.io/wiki/server-deployment/)
+- [File naming rules](https://metatube-community.github.io/wiki/naming-rules/)
+- [Auto translation](https://metatube-community.github.io/wiki/auto-translation/)
+- [Build from source](https://metatube-community.github.io/wiki/build-from-source/)
+- [Metadata providers](https://metatube-community.github.io/wiki/metadata-providers/)
 
-Full documentation and examples can be found at [Wiki](https://github.com/javtube/jellyfin-plugin-javtube/wiki).
+Full documentation and examples can be found at [Wiki](https://metatube-community.github.io/wiki/).
 
 ## Community
 
-Welcome and feel free to ask any questions at [Discussions](https://github.com/javtube/jellyfin-plugin-javtube/discussions).
+Welcome and feel free to ask any questions at [Discussions](https://github.com/metatube-community/jellyfin-plugin-metatube/discussions).
 
 ## Licence
 
-This plugin is released under the [MIT](https://github.com/javtube/jellyfin-plugin-javtube/blob/main/LICENSE) License.
+This plugin is released under the [MIT](https://github.com/metatube-community/jellyfin-plugin-metatube/blob/main/LICENSE) License.
 
-## Stargazers
+## Star History
 
-[![Stargazers over time](https://starchart.cc/javtube/jellyfin-plugin-javtube.svg)](https://starchart.cc/javtube/jellyfin-plugin-javtube)
+[![Star History Chart](https://api.star-history.com/svg?repos=metatube-community/jellyfin-plugin-metatube&type=Date)](https://star-history.com/#metatube-community/jellyfin-plugin-metatube&Date)

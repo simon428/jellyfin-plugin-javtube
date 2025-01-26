@@ -1,36 +1,37 @@
-<h1 align="center">Jellyfin Plugin JavTube</h1>
+<h1 align="center">Jellyfin Plugin MetaTube</h1>
 <p align="center"><b><a href="README.md">English</a> | 简体中文</b></p>
 
 <p align="center">
-<img alt="Plugin Banner" src="https://javtube.github.io/logos/banner.png"/>
+<img alt="Plugin Banner" src="https://metatube-community.github.io/images/banner-dark.png"/>
 <br/>
 <br/>
 
-<a href="https://github.com/javtube/jellyfin-plugin-javtube/actions">
-<img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/javtube/jellyfin-plugin-javtube/.NET?logo=github">
+<a href="https://github.com/metatube-community/jellyfin-plugin-metatube/actions">
+<img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/metatube-community/jellyfin-plugin-metatube/dotnetcore.yml?branch=main&logo=github">
 </a>
-<a href="https://github.com/javtube/jellyfin-plugin-javtube/search?l=c%23">
-<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/javtube/jellyfin-plugin-javtube?color=%23239120&label=.NET&logo=csharp">
+<a href="https://github.com/metatube-community/jellyfin-plugin-metatube/search?l=c%23">
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/metatube-community/jellyfin-plugin-metatube?color=%23239120&label=.NET&logo=csharp">
 </a>
-<a href="https://github.com/javtube/jellyfin-plugin-javtube/blob/main/LICENSE">
-<img alt="License" src="https://img.shields.io/github/license/javtube/jellyfin-plugin-javtube">
+<a href="https://github.com/metatube-community/jellyfin-plugin-metatube/blob/main/LICENSE">
+<img alt="License" src="https://img.shields.io/github/license/metatube-community/jellyfin-plugin-metatube">
 </a>
-<a href="https://t.me/JavTubePlugin">
-<img alt="Telegram Group" src="https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white">
+<a href="https://github.com/metatube-community/jellyfin-plugin-metatube">
+<img alt="gitHub Stars" src="https://img.shields.io/github/stars/metatube-community/jellyfin-plugin-metatube?style=flat">
 </a>
-<a href="https://github.com/javtube/jellyfin-plugin-javtube">
-<img alt="Downloads" src="https://img.shields.io/github/downloads/javtube/jellyfin-plugin-javtube/total">
+<a href="https://github.com/metatube-community/jellyfin-plugin-metatube">
+<img alt="Downloads" src="https://img.shields.io/github/downloads/metatube-community/jellyfin-plugin-metatube/total">
 </a>
-<a href="https://hub.docker.com/r/javtube/javtube-server">
-<img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/javtube/javtube-server?logo=docker">
+<a href="https://hub.docker.com/r/metatube/metatube-server">
+<img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/metatube/metatube-server?logo=docker">
 </a>
-<a href="https://github.com/javtube/jellyfin-plugin-javtube/releases">
-<img alt="Releases" src="https://img.shields.io/github/v/release/javtube/jellyfin-plugin-javtube?include_prereleases&logo=smartthings">
+<a href="https://github.com/metatube-community/jellyfin-plugin-metatube/releases">
+<img alt="Releases" src="https://img.shields.io/github/v/release/metatube-community/jellyfin-plugin-metatube?include_prereleases&logo=smartthings">
 </a>
+</p>
 
 ## 关于
 
-另一个为 Jellyfin/Emby 开发的超级好用的 JAV 插件。
+为 Jellyfin/Emby 开发的超级好用的元数据插件。
 
 ## 特性
 
@@ -43,31 +44,29 @@
 
 ## 平台
 
-[![Jellyfin](https://img.shields.io/static/v1?color=%2300A4DC&style=for-the-badge&label=Jellyfin&logo=jellyfin&message=10.8.x)](https://jellyfin.org/)
-[![Emby](https://img.shields.io/static/v1?color=%2352B54B&style=for-the-badge&label=Emby&logo=emby&message=4.7.x)](https://emby.media/)
+[![Jellyfin](https://img.shields.io/static/v1?color=%2300A4DC&style=for-the-badge&label=Jellyfin&logo=jellyfin&message=10.9.x)](https://jellyfin.org/)
+[![Emby](https://img.shields.io/static/v1?color=%2352B54B&style=for-the-badge&label=Emby&logo=emby&message=4.8.x)](https://emby.media/)
 
 _注意：本项目仅支持 Jellyfin/Emby 稳定版。_
 
 ## 文档
 
-- [插件安装](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85)
-- [后端部署](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E5%90%8E%E7%AB%AF%E9%83%A8%E7%BD%B2)
-- [命名规范](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83)
-- [自动翻译](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E8%87%AA%E5%8A%A8%E7%BF%BB%E8%AF%91)
-- [源码编译](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%BA%90%E7%A0%81%E7%BC%96%E8%AF%91)
-- [数据来源](https://github.com/javtube/jellyfin-plugin-javtube/wiki/%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90)
+- [插件安装](https://metatube-community.github.io/wiki/plugin-installation/)
+- [后端部署](https://metatube-community.github.io/wiki/server-deployment/)
+- [命名规范](https://metatube-community.github.io/wiki/naming-rules/)
+- [自动翻译](https://metatube-community.github.io/wiki/auto-translation/)
+- [源码编译](https://metatube-community.github.io/wiki/build-from-source/)
+- [数据来源](https://metatube-community.github.io/wiki/metadata-providers/)
 
-> 推荐：[**免费**使用Heroku一键部署后端](https://github.com/javtube/javtube-server-heroku)
-
-完整的文档以及使用方法，请参阅 [Wiki](https://github.com/javtube/jellyfin-plugin-javtube/wiki)。
+完整的文档以及使用方法，请参阅 [Wiki](https://metatube-community.github.io/wiki/)。
 
 ## 社区
 
-有任何问题欢迎来 [Discussions](https://github.com/javtube/jellyfin-plugin-javtube/discussions) 提问讨论，或者加入 [TG群](https://t.me/JavTubePlugin)。
+有任何问题欢迎来 [Discussions](https://github.com/metatube-community/jellyfin-plugin-metatube/discussions) 提问讨论。
 
 ## 许可
 
-本插件项目在 [MIT](https://github.com/javtube/jellyfin-plugin-javtube/blob/main/LICENSE) 许可授权下发行。此外，如果使用本项目表明还额外接受以下条款：
+本插件项目在 [MIT](https://github.com/metatube-community/jellyfin-plugin-metatube/blob/main/LICENSE) 许可授权下发行。此外，如果使用本项目表明还额外接受以下条款：
 
 - 本插件仅供学习以及技术交流使用
 - 请勿在公共社交平台上宣传此项目
@@ -77,4 +76,4 @@ _注意：本项目仅支持 Jellyfin/Emby 稳定版。_
 
 ## 星星
 
-[![Stargazers over time](https://starchart.cc/javtube/jellyfin-plugin-javtube.svg)](https://starchart.cc/javtube/jellyfin-plugin-javtube)
+[![Star History Chart](https://api.star-history.com/svg?repos=metatube-community/jellyfin-plugin-metatube&type=Date)](https://star-history.com/#metatube-community/jellyfin-plugin-metatube&Date)
